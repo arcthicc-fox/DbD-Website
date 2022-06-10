@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #020406;
+    color: white;
+}
+
+.white-section {
+    background-color: #B5DAFF;
+}
+
+.title-section {
+
+}
+
+/* Heading */
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1,5rem;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Navigation bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* Introductions */
+
+.introduction-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.player-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Favorite builds */
+
+.builds {
+    padding: 10% 15%;
+}
+
+.image-side {
+    text-align: center;
+}
+
+.player-side {
+    text-align: center;
+    padding: 70px 0;
+}
+
+
+
+/* Footer */
+.footer-icons {
+    padding: 4%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
