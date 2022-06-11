@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -11,11 +13,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+    color: white;
 }
 
 
 p {
-    color: #8f8f8f;
     font-size: large;
 }
 
@@ -27,13 +29,15 @@ p {
 
 /* Sections */
 
-.colored-section {
-    background-color: #020406;
-    color: white;
+
+
+
+.gerald {
+    background-color: #F3B9B9;
 }
 
-.white-section {
-    background-color: #B5DAFF;
+.viktor {
+    background-color: #EDB9F3;
 }
 
 .title-section {
@@ -108,10 +112,17 @@ p {
 
 
 /* Footer */
+
+.footer-copyright {
+    color:white;
+}
+
 .footer-icons {
     padding: 4%;
+    color: white;
 }
 
 .social-icon {
     margin: 20px 10px;
+    color: white;
 }
