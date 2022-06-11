@@ -1,14 +1,22 @@
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+
 p {
     color: #8f8f8f;
+    font-size: large;
 }
 
 /* Containers */
@@ -68,7 +76,7 @@ p {
 /* Introductions */
 
 .introduction-text {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5;
 }
 
@@ -83,16 +91,19 @@ p {
 
 .builds {
     padding: 10% 15%;
+    
 }
 
 .image-side {
-    text-align: center;
+    margin: auto;
+
 }
 
 .player-side {
-    text-align: center;
-    padding: 70px 0;
+    padding: 0% 7%;
+    margin: auto;
 }
+
 
 
 
